@@ -1,10 +1,21 @@
 import React from 'react';
 import { 
-  FaHeartbeat, FaUsers, FaGraduationCap, FaHome, FaSadTear, FaUserCircle, FaBalanceScale,
-  FaUserFriends, FaUserAlt, FaExclamationTriangle, FaComments, FaBook, FaExternalLinkAlt,
-  FaPhone, FaBuilding, FaCalendarAlt
+  FaPhone, 
+  FaBuilding,
+  FaUserAlt,
+  FaUserFriends,
+  FaExclamationTriangle,
+  FaComments,
+  FaBook,
+  FaExternalLinkAlt,
+  FaHeartbeat,
+  FaUsers,
+  FaGraduationCap,
+  FaHome,
+  FaSadTear,
+  FaUserCircle,
+  FaBalanceScale
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 function CounselingServices() {
   const services = [
@@ -159,15 +170,6 @@ function CounselingServices() {
               <span className="location">Student Health Center</span>
               <span className="hint">Walk-ins welcome</span>
             </div>
-
-            <div className="option-card">
-              <FaCalendarAlt className="option-icon" />
-              <h3>Book Online</h3>
-              <Link to="/book-appointment" className="action-button">
-                Schedule Now
-              </Link>
-              <span className="hint">Available 24/7</span>
-            </div>
           </div>
         </section>
       </div>
@@ -176,6 +178,9 @@ function CounselingServices() {
 }
 
 export default CounselingServices;
+
+
+
 
 
 
