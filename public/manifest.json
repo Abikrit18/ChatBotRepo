@@ -1,6 +1,6 @@
 {
-  "short_name": "ULM SDCSAC",
-  "name": "ULM Self-Development, Counseling, and Special Accommodations Center",
+  "short_name": "HopeBot",
+  "name": "HopeBot",
   "icons": [
     {
       "src": "Louisiana_Monroe.png",
@@ -23,4 +23,5 @@
   "theme_color": "#800029",
   "background_color": "#ffffff"
 }
+
 

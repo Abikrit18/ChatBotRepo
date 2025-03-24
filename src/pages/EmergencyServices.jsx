@@ -38,7 +38,6 @@ function EmergencyServices() {
               </div>
               <div className="contact-details">
                 <p className="phone">(318) 342-5220</p>
-                <p className="availability">Available during business hours</p>
               </div>
             </div>
           </div>
@@ -50,24 +49,25 @@ function EmergencyServices() {
             <div className="resource-card">
               <h3>National Suicide Prevention Lifeline</h3>
               <div className="resource-numbers">
-                <p className="primary-number">988</p>
-                <p className="secondary-number">1-800-273-8255</p>
+                <div className="main-number">988</div>
+                <div className="alt-number">1-800-273-8255</div>
               </div>
             </div>
 
             <div className="resource-card">
               <h3>Crisis Text Line</h3>
-              <div className="resource-details">
-                <p className="instruction">Text</p>
-                <p className="highlight">HOME</p>
-                <p className="instruction">to</p>
-                <p className="number">741741</p>
+              <div className="text-line">
+                <div>Text <span className="text-home">HOME</span></div>
+                <div className="text-to">to</div>
+                <div className="text-number">741741</div>
               </div>
             </div>
 
             <div className="resource-card">
               <h3>Wellspring Alliance 24-Hour Crisis Line</h3>
-              <p className="phone-number">(318) 323-1505</p>
+              <div className="resource-numbers">
+                <div className="main-number">(318) 323-1505</div>
+              </div>
             </div>
           </div>
         </section>

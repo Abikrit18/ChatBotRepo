@@ -101,13 +101,7 @@ function CounselingServices() {
           <h2>Our Services</h2>
           <div className="services-grid">
             {services.map((service, index) => (
-              <div 
-                key={index} 
-                className="service-item"
-                style={{
-                  gridRow: index >= 3 ? '2' : '1' // Force items into two rows
-                }}
-              >
+              <div key={index} className="service-item">
                 <div className="service-icon">
                   {service.icon}
                 </div>
@@ -122,13 +116,7 @@ function CounselingServices() {
           <h2>Common Concerns We Address</h2>
           <div className="concerns-grid">
             {concerns.map((concern, index) => (
-              <div 
-                key={index} 
-                className="concern-card"
-                style={{
-                  gridRow: index >= 4 ? '2' : '1' // Force items into two rows
-                }}
-              >
+              <div key={index} className="concern-card">
                 <div className="concern-icon">
                   {concern.icon}
                 </div>
@@ -158,17 +146,17 @@ function CounselingServices() {
             <div className="option-card">
               <FaPhone className="option-icon" />
               <h3>Call Us</h3>
-              <a href="tel:+13183425220" className="action-link">
-                (318) 342-5220
-              </a>
-              <span className="hint">During business hours</span>
+              <p className="phone-number">
+                <a href="tel:+13183425220">(318) 342-5220</a>
+              </p>
+              <p className="hint">During business hours</p>
             </div>
 
             <div className="option-card">
               <FaBuilding className="option-icon" />
               <h3>Visit Us</h3>
-              <span className="location">Student Health Center</span>
-              <span className="hint">Walk-ins welcome</span>
+              <p className="location">Student Health Center</p>
+              <p className="hint">Walk-ins welcome</p>
             </div>
           </div>
         </section>
@@ -178,6 +166,8 @@ function CounselingServices() {
 }
 
 export default CounselingServices;
+
+
 
 
 

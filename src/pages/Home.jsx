@@ -28,7 +28,7 @@ function Home() {
           <span className="tag">24/7 Available</span>
           <h3>Emergency Services</h3>
           <p>Access immediate support when you need it most. Our emergency services 
-             are available 24/7 to ensure your safety and well-being.</p>
+             are available 24/7 to ensure your safety and well-being of everyone.</p>
           <a href="/emergency" className="btn">Learn More</a>
         </div>
       </div>

@@ -3,7 +3,7 @@ import {
   FaClipboardCheck, FaPencilAlt, FaSignLanguage, FaFileAlt, 
   FaLaptop, FaHome, FaChalkboardTeacher, FaClipboardList,
   FaFileUpload, FaCalendarCheck, FaUserTie, FaEnvelope,
-  FaClock, FaMapMarkerAlt, FaPhone
+  FaMapMarkerAlt, FaPhone
 } from 'react-icons/fa';
 
 function SpecialAccommodations() {
@@ -123,21 +123,6 @@ function SpecialAccommodations() {
             <h3>Email</h3>
             <a href="mailto:kfoster@ulm.edu">kfoster@ulm.edu</a>
           </div>
-          
-          <div className="contact-item">
-            <FaClock className="contact-icon" />
-            <h3>Hours</h3>
-            <div className="contact-details">
-              <div className="hours-item">
-                <p className="days">Monday - Thursday</p>
-                <p className="time">7:30 AM - 5:00 PM</p>
-              </div>
-              <div className="hours-item">
-                <p className="days">Friday</p>
-                <p className="time">7:30 AM - 11:30 AM</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
@@ -145,6 +130,9 @@ function SpecialAccommodations() {
 }
 
 export default SpecialAccommodations;
+
+
+
 
 
 

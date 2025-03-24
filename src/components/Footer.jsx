@@ -7,6 +7,7 @@ function Footer() {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/counseling">Counseling</Link></li>
             <li><Link to="/accommodations">Accommodations</Link></li>
             <li><Link to="/emergency">Emergency</Link></li>
@@ -52,4 +53,5 @@ function Footer() {
 }
 
 export default Footer;
+
 
